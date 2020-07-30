@@ -1,6 +1,6 @@
 <html manifest="cache.manifest">
 <head>
-<title>6.72 Exploit Menu By Leeful (reyo2k8)</title>
+<title>PS4 6.72 Exploit Menu By Leeful(Reyo2k8 Mod)</title>
 <script>
 function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Installing Offline Cache: " + Percent + "%";}
 function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cache Installed Successfully";},1000);setTimeout(function(){window.msgs.innerHTML="6.72 Exploit Host Menu";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
@@ -13,43 +13,52 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 }
 .auto-style2 {
 	color: #FFFFFF;
-	font-family: "Lucida Sans";
+	font-family: Verdana;
 }
 .auto-style3 {
 	color: #FFFFFF;
 	font-family: "Lucida Sans";
 	font-size: 15px;
 }
+.auto-style5 {
+	color: #FFFFFF;
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: normal;
+}
 </style>
 </head>
-<body style="background-color: #0741AB">
+<body style="background-color: #00359B">
 <h1 id=msgs style='font-size:25px;text-align:center;' class="auto-style2">6.72 Exploit Menu</h1>
 <hr><br>
-<h1 style='text-align:center;' class="auto-style3">Load Jailbreak</h1>
-<div style="text-align:center">
-<button onclick="load_exploit(); return false"> Load Exploit </button> &nbsp;
-<button onclick="load_mira(); return false"> Load Mira </button>
-<br><br>
-<h1 style='font-size:15px;text-align:center;'>
-<img alt="" height="176" src="1.png" width="145" class="auto-style1" onclick="load_exploit_mira(); return false"></h1>
-</div>
+<h1 style='text-align:center;' class="auto-style5">
+<img height="60" src="ps4trans.png" width="200"></h1>
+<h1 style='text-align:center;' class="auto-style5">Load Jailbreak</h1>
+<p style='text-align:center;' class="auto-style5">&nbsp;</p>
 <div style="text-align:center">
 	<h1 style='text-align:center;' class="auto-style3">
+	<a href="#">
+	<img class="auto-style1" height="277" onclick="load_exploit_mira(); return false" src="hen.png" width="231"></a></h1>
+</div>
+<div style="text-align:center">
+	<h1 style='text-align:center;' class="auto-style5">
 	&nbsp;</h1>
 </div>
 <div style="text-align:center">
-	<h1 style='text-align:center;' class="auto-style3">
+	<h1 style='text-align:center;' class="auto-style5">
 	Payloads</h1>
-<button onclick="load_binloader(); return false"> Bin Loader </button>
-<button onclick="load_ftp(); return false"> FTP </button>
-<button onclick="load_dumper(); return false"> Dumper </button>
-<button onclick="load_linux(); return false"> Linux </button>
-<button onclick="load_app2usb(); return false"> AppToUSB </button>
-<button onclick="load_kerneldump(); return false"> Kernel Dumper </button>
-<button onclick="load_historyblock(); return false"> History Blocker </button>
-<button onclick="load_updatesdisable(); return false"> Disable Updates </button>
-<button onclick="load_updatesenable(); return false"> Enable Updates </button>
-<br>
+	<br><a href="#">
+	<img class="auto-style1" height="131" onclick="load_binloader(); return false" src="bin.png" width="131"></a>
+	<a href="#">
+	<img class="auto-style1" height="131" onclick="load_ftp(); return false" src="ftp.png" width="131"></a>
+	<a href="#">
+	<img class="auto-style1" height="131" onclick="load_dumper(); return false" src="dumpp.png" width="130"></a>
+	<a href="#">
+	<img class="auto-style1" height="131" onclick="load_app2usb(); return false" src="usb.png" width="131"></a>
+	<a href="#">
+	<img class="auto-style1" height="131" onclick="load_updatesdisable(); return false" src="disable.png" width="131"></a>
+	<a href="#">
+	<img class="auto-style1" height="131" onclick="load_updatesenable(); return false" src="enable.png" width="131"></a><br>
 </div>
 <script>
 function load_exploit(){
@@ -59,7 +68,7 @@ setTimeout(jailbreak,500);
 
 function load_exploit_mira(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Exploit + Mira ...</h1>";
-LoadedMSG="Exploit + Mira Loaded âœ”";ExploitMira="yes";
+LoadedMSG="Exploit + Mira Loaded, Press PS Button";ExploitMira="yes";
 setTimeout(jailbreak,500);
 }
 
@@ -71,63 +80,63 @@ var script = document.createElement('script');script.src = "exp_loader.js";docum
 
 function load_mira(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Mira ...</h1>";
-LoadedMSG="Mira Loaded âœ”";
+LoadedMSG="Mira Loaded";
 var script = document.createElement('script');script.src = "pl_mira.js";document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
 
 function load_ftp(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading FTP ...</h1>";
-LoadedMSG="FTP Loaded âœ”";
+LoadedMSG="FTP Loaded";
 var script = document.createElement('script');script.src = "pl_ftp.js";document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
 
 function load_dumper(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Dumper ...</h1>";
-LoadedMSG="Dumper Loaded âœ”";
+LoadedMSG="Dumper Loaded";
 var script = document.createElement('script');script.src = "pl_dumper.js";document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
 
 function load_linux(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Linux ...</h1>";
-LoadedMSG="Linux Loaded âœ”";
+LoadedMSG="Linux Loaded";
 var script = document.createElement('script');script.src = "pl_linux.js";document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
 
 function load_app2usb(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading AppToUSB ...</h1>";
-LoadedMSG="AppToUSB Loaded âœ”";
+LoadedMSG="AppToUSB Loaded";
 var script = document.createElement('script');script.src = "pl_app2usb.js";document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
 
 function load_kerneldump(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Kernel Dumper ...</h1>";
-LoadedMSG="Kernel Dumper Loaded âœ”";
+LoadedMSG="Kernel Dumper Loaded";
 var script = document.createElement('script');script.src = "pl_kernelDumper.js";document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
 
 function load_historyblock(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading History Blocker ...</h1>";
-LoadedMSG="History Blocker Loaded âœ”";
+LoadedMSG="History Blocker Loaded";
 var script = document.createElement('script');script.src = "pl_historyBlocker.js";document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
 
 function load_updatesdisable(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Disable Updates ...</h1>";
-LoadedMSG="Disable Updates Loaded âœ”";
+LoadedMSG="Disable Updates Loaded";
 var script = document.createElement('script');script.src = "pl_updatesDisable.js";document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
 
 function load_updatesenable(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Enable Updates ...</h1>";
-LoadedMSG="Enable Updates Loaded âœ”";
+LoadedMSG="Enable Updates Loaded";
 var script = document.createElement('script');script.src = "pl_updatesEnable.js";document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
