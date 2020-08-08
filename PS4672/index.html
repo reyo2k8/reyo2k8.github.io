@@ -1,0 +1,245 @@
+﻿<html manifest="cache.manifest">
+<head>
+<title>PS4 6.72 Exploit Menu Reyo2k8 (Leeful v4)</title>
+<script>
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Installing Offline Cache: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cache Installed Successfully";},1000);setTimeout(function(){window.msgs.innerHTML="PS4 6.72 Exploit Menu";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+</script>
+<script src="exp_common.js"></script>
+<script src="exp_jailbreak.js"></script>
+<style type="text/css">
+.auto-style1 {
+	border-width: 0px;
+}
+.auto-style2 {
+	color: #FFFFFF;
+	font-family: Verdana;
+}
+.auto-style3 {
+	color: #FFFFFF;
+	font-family: "Lucida Sans";
+	font-size: 15px;
+}
+.auto-style5 {
+	color: #FFFFFF;
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: normal;
+}
+.auto-style6 {
+	border-width: 0px;
+	vertical-align: top;
+}
+.auto-style7 {
+	color: #FFFFFF;
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: normal;
+	text-align: right;
+}
+.auto-style8 {
+	color: #FFFFFF;
+	font-family: Verdana;
+	font-size: 16px;
+	font-weight: normal;
+}
+.auto-style9 {
+	font-size: 16px;
+}
+.auto-style12 {
+	font-size: 16px;
+	font-family: Verdana;
+	color: #FFFFFF;
+}
+.auto-style14 {
+	font-family: Verdana;
+}
+.auto-style15 {
+	border-width: 0px;
+	font-family: Verdana;
+	vertical-align: middle;
+	font-size: 16px;
+}
+.auto-style16 {
+	color: #FFFFFF;
+}
+.auto-style17 {
+	text-align: center;
+}
+.auto-style18 {
+	font-family: Verdana;
+	font-size: 16px;
+}
+.auto-style19 {
+	font-size: 12px;
+}
+.auto-style20 {
+	color: #AECDFF;
+}
+</style>
+</head>
+<body style="background-color: #00359B">
+<h1 id=msgs style='font-size:25px;text-align:center;' class="auto-style2">&nbsp;<img height="25" src="ps4tr.png" width="106"> 6.72 Exploit Menu</h1>
+<hr>
+<h1 class="auto-style7">
+<img height="25" src="xbutton.png" width="25" class="auto-style12"><span class="auto-style9"><span class="auto-style2"> Select&nbsp;&nbsp;
+		</span>
+<img height="25" src="psbutton.png" width="25" class="auto-style2"><span class="auto-style2"> 
+Exit</span></span></h1>
+<h1 style='text-align:center;' class="auto-style8">Load Jailbreak</h1>
+<p style='text-align:center;' class="auto-style8">&nbsp;</p>
+<div style="text-align:center">
+	<h1 style='text-align:center;' class="auto-style3">
+	<a href="https://reyo2k8.github.io/#">
+	<img class="auto-style1" onclick="load_exploit_mira(); return false" src="hen.png" onmouseover="this.src='henbig.png';"
+onmouseout="this.src='hen.png';"></a></h1>
+</div>
+<div style="text-align:center">
+	<h1 style='text-align:center;' class="auto-style5">
+	&nbsp;</h1>
+</div>
+
+<div style="text-align:center">
+	<h1 style='text-align:center;' class="auto-style8">
+	Payloads</h1>
+</div>
+<div style="text-align:center">
+	<p style='text-align:center;' class="auto-style5">
+	&nbsp;</p>
+</div>
+<div style="text-align:center">
+	<h1 style='text-align:center;' class="auto-style3">
+	<a href="https://reyo2k8.github.io/#">
+	<img class="auto-style6" onclick="load_binloader(); return false" src="bin.png" onmouseover="this.src='binbig.png';"
+onmouseout="this.src='bin.png';"></a>
+	<a href="https://reyo2k8.github.io/#">
+	<img class="auto-style6" onclick="load_ftp(); return false" src="ftp.png" onmouseover="this.src='ftpbig.png';"
+onmouseout="this.src='ftp.png';"></a>
+	<a href="https://reyo2k8.github.io/#">
+	<img class="auto-style6" onclick="load_dumper(); return false" src="dumpp.png" onmouseover="this.src='dumppbig.png';"
+onmouseout="this.src='dumpp.png';"></a>
+	<a href="https://reyo2k8.github.io/#">
+	<img class="auto-style6" onclick="load_app2usb(); return false" src="usb.png" onmouseover="this.src='usbbig.png';"
+onmouseout="this.src='usb.png';"></a>
+	<a href="https://reyo2k8.github.io/#">
+	<img class="auto-style6" onclick="load_updatesdisable(); return false" src="disable.png" onmouseover="this.src='disablebig.png';"
+onmouseout="this.src='disable.png';"></a>
+	<a href="https://reyo2k8.github.io/#">
+	<img class="auto-style6" onclick="load_updatesenable(); return false" src="enable.png" onmouseover="this.src='enablebig.png';"
+onmouseout="this.src='enable.png';"></a></h1>
+</div>
+<script>
+function load_exploit(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Exploit ...</h1>";
+setTimeout(jailbreak,500);
+}
+
+function load_exploit_mira(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Exploit + Mira ...</h1>";
+LoadedMSG="Exploit + Mira Loaded ✔";ExploitMira="yes";
+setTimeout(jailbreak,500);
+}
+
+function load_binloader(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Bin Loader ...</h1>";
+LoadedMSG="Send Payload To Port 9021";
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_mira(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Mira ...</h1>";
+LoadedMSG="Mira Loaded";
+var script = document.createElement('script');script.src = "pl_mira.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_ftp(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading FTP ...</h1>";
+LoadedMSG="FTP Loaded";
+var script = document.createElement('script');script.src = "pl_ftp.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_dumper(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Dumper ...</h1>";
+LoadedMSG="Dumper Loaded";
+var script = document.createElement('script');script.src = "pl_dumper.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_linux(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Linux ...</h1>";
+LoadedMSG="Linux Loaded";
+var script = document.createElement('script');script.src = "pl_linux.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_app2usb(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading AppToUSB ...</h1>";
+LoadedMSG="AppToUSB Loaded";
+var script = document.createElement('script');script.src = "pl_app2usb.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_kerneldump(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Kernel Dumper ...</h1>";
+LoadedMSG="Kernel Dumper Loaded";
+var script = document.createElement('script');script.src = "pl_kernelDumper.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_historyblock(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading History Blocker ...</h1>";
+LoadedMSG="History Blocker Loaded";
+var script = document.createElement('script');script.src = "pl_historyBlocker.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_updatesdisable(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Disable Updates ...</h1>";
+LoadedMSG="Disable Updates Loaded";
+var script = document.createElement('script');script.src = "pl_updatesDisable.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_updatesenable(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Enable Updates ...</h1>";
+LoadedMSG="Enable Updates Loaded";
+var script = document.createElement('script');script.src = "pl_updatesEnable.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+
+function load_fanthresh(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Fan Threshold ...</h1>";
+LoadedMSG="Fan Threshold Loaded";fanTemp=tempC.value;//alert(fanTemp);
+var script = document.createElement('script');script.src = "pl_fanthresh.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
+</script>
+<div class="auto-style17">
+	<span class="auto-style14"><span class="auto-style16"><br>
+	</span><span class="auto-style9"><span class="auto-style20">Fan Control</span><span class="auto-style16">
+	</span></span></span>
+	<select id="tempC" class="auto-style18" name="D1"></select><span class="auto-style14"><span class="auto-style16">
+<img class="auto-style15" onclick="load_fanthresh(); return false" src="fan2.png"><span class="auto-style9">
+	</span>
+	</span><span class="auto-style9"><span class="auto-style20">Set</span></span><span class="auto-style16"><br class="auto-style9">
+	<span class="auto-style19">Default 79&#176;C
+<script>
+for(var i=40; i<=79; i++){
+    var select = document.getElementById("tempC");
+    var option = document.createElement("OPTION");
+	select.options.add(option);
+	option.text = i;
+	option.value = i;
+}
+tempC.value=60;
+</script>
+	</span>
+	</span></span>
+
+</div>
+
+<p class="auto-style17">&nbsp;</p>
+</body>
+</html>
